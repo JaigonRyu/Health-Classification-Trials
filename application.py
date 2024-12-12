@@ -11,6 +11,8 @@ def home():
 def classify():
     data = request.json
     # Process input data and perform classification
+    
+
     result = {"prediction": "Class A", "confidence": 0.95}
     return jsonify(result)
 
